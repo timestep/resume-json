@@ -1,2 +1,2 @@
-import { createTextDiv } from './create-div';
-export { createTextDiv };
+import { createTextNode } from './create-div';
+export { createTextNode };
