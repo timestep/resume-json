@@ -1,7 +1,8 @@
 import resume from '../../assets/resume.json';
-import { profile } from './profile';
+import { jsonBuilder } from './jsonBuilder';
+
 export const main = () => {
   console.log(resume);
-  const profileEl = profile(resume.profile);
-  document.body.appendChild(profileEl);
+  const resumeEl = jsonBuilder('Resume', resume);
+  document.body.appendChild(resumeEl);
 };
