@@ -101,6 +101,43 @@
           ]
         }
       ]
+    },
+    {
+      "institution": "BuzzBuzzHome",
+      "duration": {
+        "start": { "year": 2013, "month": 9 },
+        "end": { "year": 2015, "month": 7 }
+      },
+      "role": "Software Developer",
+      "description": "Javascript Developer for Angular 1",
+      "projects": [
+        {
+          "description":
+            "DayPack.co: A real-time real estate inventory engineering management solution",
+          "tasks": [
+            "A Node.js Real-Time MVC Framework, sails.js, to develop a REST API  to output JSON on and broadcast Socket requests on Model changes in real time",
+            "Prototyped and released a client-side single page application (SPA) using Angular.js to make requests and receive responses as well as socket messages from the sails.js API",
+            "Designed a grid based data entry eng. system where each cell could be cloned, moved and modified and broadcast all changes in real-time to all clients connected via Socket.io"
+          ]
+        },
+        {
+          "description":
+            "An e-health application used to monitor allergies and asthma and to predict elevated levels of pollen",
+          "tasks": [
+            "Built in React, Angular 1.x, Cordova and Node",
+            "Helped transition the team into moving the web application into webpack",
+            "Moved the team towards a more continuous delivery with CodePush and TDD practices",
+            "Collaborated frequently with the client to help architect new features for the application"
+          ]
+        },
+        {
+          "description":
+            "An mobile IPhone application built in Ionic and a Flux Architecture used to automate sending of job tickets.",
+          "tasks": [
+            "Leaded the team to a successful production launch and is currently used by hundreds of users"
+          ]
+        }
+      ]
     }
   ]
 }
