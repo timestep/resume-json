@@ -1,0 +1,15 @@
+{
+  "name": "resume-json",
+  "version": "1.0.0",
+  "description": "ResumeJson",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "assets": "^3.0.0"
+  }
+}
