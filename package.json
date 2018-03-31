@@ -11,7 +11,8 @@
   "license": "ISC",
   "keywords": [],
   "dependencies": {
-    "assets": "^3.0.0"
+    "assets": "^3.0.0",
+    "ramda": "^0.25.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1"
