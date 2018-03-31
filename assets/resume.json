@@ -1,0 +1,106 @@
+{
+  "profile": {
+    "name": ["Aaron", "Kevin", "Sivabalan"],
+    "social": {
+      "email": "kevin.sivabalan@gmail.com",
+      "website": "timestep.io",
+      "github": "github.com/timestep",
+      "linkedin": "linkedin.com/in/kevinsivabalan"
+    }
+  },
+  "education": [
+    {
+      "institution": "Queen’s University",
+      "level": "university",
+      "certificates": [
+        {
+          "title": "Bachelor of Applied Science,  Engineering Physics",
+          "duration": {
+            "start": {
+              "year": 2008
+            },
+            "end": {
+              "year": 2012
+            }
+          },
+          "departments": [
+            "Department of Applied Science and Engineering",
+            "Department of Physics"
+          ]
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "institution": "Rangle.io",
+      "duration": { "start": { "year": 2018, "month": 1 } },
+      "role": "Acting Solutions Architect",
+      "description":
+        "Leading a Team of 2 Developers, 1 QA, 1 UI Engineer and  1 Scrum Master while leading a client team of 4 developers, a technical owner, and 3 Product Owners on technical and process direction on an Angular 2 project.",
+      "achievements": [
+        "Communicating with the client as the lead technical figure for the team",
+        "Providing recommendations for technical solutions and technical debt",
+        "Gathering project requirements and listening to concerns of the client from both business and technical",
+        "Providing a strategic product plan via leading sprint planning and story break down to fit an Agile workflow.",
+        "Directing and mentoring developers on the team on how to architect a maintainable codebase",
+        "Communicating with management on a daily basis of the progress of the project, providing reporting on team members, team performance.",
+        "Identifying future blockers for the team in process and technical implementations, and working with the Scrum Master and Delivery Director to remove them",
+        "Brought a code base to 70% coverage from 3% in 3 months, without a massive testing effort",
+        "Implemented a Continuous Delivery pipeline with Heroku, Github, and CircleCi before production, with Linter, Testing, automated builds and deployments",
+        "Initialized the E2E workflows for the project with Protractor"
+      ]
+    },
+    {
+      "institution": "Rangle.io",
+      "duration": {
+        "start": { "year": 2015, "month": 7 },
+        "end": { "year": 2017, "month": 12 }
+      },
+      "role": "Software Developer",
+      "description":
+        "Javascript Developer for Angular 1/2, React, Ionic, Cordova and Node applications",
+      "achievements": [
+        "Teached a workshop on Continuous Delivery to new employees, advising the benefits of CD, the philosophy and how to implement in a new project and an old project.",
+        "Coached various employees about life at work and how to manage through projects.",
+        "Helped develop various agile engineering practices on all teams",
+        "Providing a strategic product plan via leading sprint planning and story break down to fit an Agile workflow.",
+        "Directing and mentoring developers on the team on how to architect a maintainable codebase",
+        "Communicating with management on a daily basis of the progress of the project, providing reporting on team members, team performance.",
+        "Identifying future blockers for the team in process and technical implementations, and working with the Scrum Master and Delivery Director to remove them",
+        "Brought a code base to 70% coverage from 3% in 3 months, without a massive testing effort",
+        "Implemented a Continuous Delivery pipeline with Heroku, Github, and CircleCi before production, with Linter, Testing, automated builds and deployments",
+        "Initialized the E2E workflows for the project with Protractor"
+      ],
+      "projects": [
+        {
+          "description":
+            "A web application build in React/Redux with Flow types to sell tires to consumers",
+          "tasks": [
+            "Kicked off the project and began developing working prototypes on day 1.",
+            "Delivered a working project within 4 weeks with the team",
+            "Tech eng. with third party vendors to help engineer systems, API and feed data to the front end.",
+            "Used various tools to help build the Continuous Delivery Pipeline, CircleCi, Github and incorporating basic code quality management, including typing, linting and continuous testing"
+          ]
+        },
+        {
+          "description":
+            "An e-health application used to monitor allergies and asthma and to predict elevated levels of pollen",
+          "tasks": [
+            "Built in React, Angular 1.x, Cordova and Node",
+            "Helped transition the team into moving the web application into webpack",
+            "Moved the team towards a more continuous delivery with CodePush and TDD practices",
+            "Collaborated frequently with the client to help architect new features for the application"
+          ]
+        },
+        {
+          "description":
+            "An mobile IPhone application built in Ionic and a Flux Architecture used to automate sending of job tickets.",
+          "tasks": [
+            "Leaded the team to a successful production launch and is currently used by hundreds of users"
+          ]
+        }
+      ]
+    }
+  ]
+}
