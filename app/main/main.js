@@ -3,11 +3,11 @@ import { jsonBuilder } from './jsonBuilder';
 
 export const main = () => {
   console.log(resume);
-  const profile = jsonBuilder('profile', resume.profile);
-  const education = jsonBuilder('education', resume.education);
-  const experience = jsonBuilder('experience', resume.experience);
+  // const profile = jsonBuilder('profile', resume.profile);
+  // const experience = jsonBuilder('experience', resume.experience);
+  const education = jsonBuilder(resume.education);
 
-  document.body.appendChild(profile);
-  document.body.appendChild(education);
-  document.body.appendChild(experience);
+  // profile.forEach(x => document.body.appendChild(x));
+  education.forEach(x => document.body.appendChild(x));
+  // document.body.appendChild(experience);
 };
